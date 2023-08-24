@@ -1,0 +1,118 @@
+/* Header Component */
+
+.navigation {
+ display: flex;
+  font-size: 1.5rem !important;
+  background-color: var(--dark-blue);
+  justify-content: space-between !important;
+  padding: 10px;
+  align-items: center;
+}
+
+.navIcons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-decoration: none !important;
+  color: var(--pale-green);
+}
+
+.navbarIcons {
+  font-size: 2rem !important;
+  color: var(--pale-green) !important;
+  padding: 10px;
+}
+
+.navbarIcons:hover {
+  font-size: 2rem !important;
+  color: var(--teal) !important;
+  padding: 10px;
+}
+
+.navbarBrand {
+  color: var(--pale-green) !important;
+  font-size: 100%;
+  margin-left: 2%;
+}
+
+.navLink {
+  color: var(--pale-green) !important;
+  font-size: 100%;
+  border-radius: 20px;
+  width: auto;
+  padding: 10px;
+align-items: center;
+}
+
+.navLink:hover {
+  background-color: var(--pale-green) !important;
+  color: var(--dark-blue) !important;
+}
+
+.webLinkButton {
+  color: var(--pale-green) !important;
+  background-color: var(--dark-blue) !important;
+  border: solid 10px var(--dark-blue) !important;
+  width: 300px; /* Adjust the width as desired */
+  height: 80px; /* Adjust the height as desired */
+  margin: 10px;
+}
+
+.webLinkButton:hover {
+  color: var(--pale-green) !important;
+  background-color: var(--teal) !important;
+  border: solid 10px var(--teal) !important;
+}
+
+/* About Me */
+.intro-container {
+  background-color: var(--teal);
+  color: var(--pale-green);
+  padding: 50px;
+  font-size: 150%;
+}
+
+/* Google Search */
+
+/* .googleSearchText {
+  font-weight: 900;
+  color: var(--pale-green);
+  padding: 1px;
+  margin: 0;
+}
+
+.googleSubmit {
+  background-color: var(--teal);
+  padding: 1%;
+  border: solid 5px var(--dark-blue);
+  border-radius: 10px;
+  color: var(--pale-green);
+  margin: 1%;
+  width: 30%;
+  font-size: 1em;
+}
+
+.googleSubmit:hover {
+  background-color: var(--pale-green);
+  border: solid 5px var(--teal);
+  color: var(--dark-blue);
+}
+
+.googleTextEnter {
+  height: 50px;
+  width: 50%;
+  border-radius: 10px;
+  border: solid 1px var(--pale-green);
+  margin: 2%;
+} */
+
+/*  Footer Component */
+
+.footer {
+  background-color: var(--dark-blue);
+  font-size: 1rem !important;
+  text-align: center;
+  padding: 1rem;
+  color: var(--pale-green);
+
+}

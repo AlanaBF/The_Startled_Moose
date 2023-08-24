@@ -1,0 +1,127 @@
+#root {
+  --dark-blue: #0388a6;
+  --dark-teal: #0396a6;
+  --teal: #04bfbf;
+  --green: #9cd9b6;
+  --pale-green: #d8f2e3;
+  --cream: #e6ddc4;
+  font-family: 'Caveat', cursive;
+  width: 100%;
+}
+
+html {
+  width: 100%;
+  margin:0;
+  padding:0;
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+/* General Page Layout */
+.pageBackground {
+  background-color: var(--pale-green);
+  color: var(--dark-blue);
+  text-align: center;
+  min-height: 85vh;
+}
+
+/* Home Page */
+.pageTitle {
+font-size: 5em;
+}
+
+.mooseLogo {
+  padding: 100px;
+}
+/* .googleSearchContainer {
+  background-color: var(--dark-blue);
+  border-radius: 30px;
+  border: solid 10px var(--teal);
+  margin: 20px;
+} */
+
+/* Contact Page */
+
+.contactText {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+.fa {
+  font-size: 6rem;
+  font-weight: bold;
+  color: var(--dark-blue);
+}
+
+.fa:hover {
+  font-size: 5rem;
+  color: var(--teal);
+}
+
+span {
+  display: flex;
+  justify-content: space-around;
+  margin: 0% 20% 0% 20%;
+  align-items: center;
+}
+
+/* Page Not Found */
+
+.notFoundPageContainer {
+  width: 100%;
+  height: 85vh;
+  background-color: var(--pale-green);
+}
+
+.notFoundPageInner {
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.notFoundPageContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  width: 80%;
+}
+
+.notFoundPageContent div {
+  width: 100%;
+  height: 100%;
+  min-height: 400px;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.notFoundPageContent div:nth-child(1) {
+  justify-content: center;
+  align-items: center;
+}
+
+.notFoundPageContent p {
+  font-size: 1rem;
+}
+
+.notFoundPageContent span {
+  font-size: 2rem;
+}
+
+.notFoundPageContent img {
+  display: flex;
+  width: 100%;
+}
