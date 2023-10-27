@@ -14,18 +14,15 @@ function About() {
               Creations, and Illustrations.
             </h1>
             <div className="art-div">
-              <div className="">
                 <h3>Illustrations</h3>
                 <img src={Illustration} className="illustration-image"></img>
-              </div>
-              <div className="">
               <h3>Portraits</h3>
                 <img src={Portrait} className="portrait-image"></img>
-              </div>
-              <div className="">
+  
+    
               <h3>Fragmented Mosaic Art</h3>
                 <img src={Fragment} className="fragment-image"></img>
-              </div>
+ 
             </div>
             <p>
               Share your vision via email, and I&apos;ll provide a personalised
