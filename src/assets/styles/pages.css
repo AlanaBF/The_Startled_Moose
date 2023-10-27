@@ -1,3 +1,10 @@
+/* General Page Layout */
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
 #root {
   --dark-blue: #0388a6;
   --dark-teal: #0396a6;
@@ -5,41 +12,27 @@
   --green: #9cd9b6;
   --pale-green: #d8f2e3;
   --cream: #e6ddc4;
-  font-family: 'Caveat', cursive;
-  width: 100%;
-}
-
-html {
-  width: 100%;
-  margin:0;
-  padding:0;
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-
-/* General Page Layout */
-.pageBackground {
+  font-family: "Caveat", cursive;
   background-color: var(--pale-green);
   color: var(--dark-blue);
   text-align: center;
-  min-height: 85vh;
+}
+
+.page-container,
+.main-content {
+  min-width: 100%;
+  min-height: 80vh;
 }
 
 /* Home Page */
 .pageTitle {
-font-size: 5em;
+  font-size: 5em;
+  padding: 0;
+  margin: 0;
 }
 
 .mooseLogo {
-  padding: 100px;
+  width: 40%;
 }
 /* .googleSearchContainer {
   background-color: var(--dark-blue);
@@ -50,6 +43,11 @@ font-size: 5em;
 
 /* Contact Page */
 
+.profile-pic {
+  width: 20%;
+  border-radius: 100%;
+}
+
 .contactText {
   text-align: center;
   font-size: 2rem;
@@ -58,21 +56,21 @@ font-size: 5em;
 }
 
 .fa {
-  font-size: 6rem;
-  font-weight: bold;
+  font-size: 4rem;
   color: var(--dark-blue);
+  padding: 20px;
 }
 
 .fa:hover {
-  font-size: 5rem;
+  font-size: 3rem;
   color: var(--teal);
 }
 
-span {
-  display: flex;
-  justify-content: space-around;
-  margin: 0% 20% 0% 20%;
-  align-items: center;
+.btn-facebook,
+.btn-linkedin {
+  background-color: var(--pale-green);
+  border: 2px solid var(--dark-blue);
+  border-radius: 100%;
 }
 
 /* Page Not Found */

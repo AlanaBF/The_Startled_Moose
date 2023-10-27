@@ -1,15 +1,15 @@
 /* Header Component */
 
-.navigation {
- display: flex;
+nav {
+
   font-size: 1.5rem !important;
-  background-color: var(--dark-blue);
-  justify-content: space-between !important;
+  background-color: var(--dark-blue) !important;
+  /* justify-content: space-between !important;
   padding: 10px;
-  align-items: center;
+  align-items: center; */
 }
 
-.navIcons {
+.nav-icons {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -17,51 +17,36 @@
   color: var(--pale-green);
 }
 
-.navbarIcons {
+.navbar-icons {
   font-size: 2rem !important;
   color: var(--pale-green) !important;
   padding: 10px;
 }
 
-.navbarIcons:hover {
+.navbar-icons:hover {
   font-size: 2rem !important;
   color: var(--teal) !important;
   padding: 10px;
 }
 
-.navbarBrand {
+.navbar-brand {
   color: var(--pale-green) !important;
   font-size: 100%;
   margin-left: 2%;
 }
 
-.navLink {
+.nav-link {
   color: var(--pale-green) !important;
   font-size: 100%;
   border-radius: 20px;
   width: auto;
   padding: 10px;
-align-items: center;
+  align-items: center;
 }
 
-.navLink:hover {
+.nav-link:hover {
   background-color: var(--pale-green) !important;
   color: var(--dark-blue) !important;
-}
-
-.webLinkButton {
-  color: var(--pale-green) !important;
-  background-color: var(--dark-blue) !important;
-  border: solid 10px var(--dark-blue) !important;
-  width: 300px; /* Adjust the width as desired */
-  height: 80px; /* Adjust the height as desired */
-  margin: 10px;
-}
-
-.webLinkButton:hover {
-  color: var(--pale-green) !important;
-  background-color: var(--teal) !important;
-  border: solid 10px var(--teal) !important;
 }
 
 /* About Me */
@@ -70,6 +55,7 @@ align-items: center;
   color: var(--pale-green);
   padding: 50px;
   font-size: 150%;
+  min-height: 70vh;
 }
 
 /* Google Search */
@@ -114,5 +100,9 @@ align-items: center;
   text-align: center;
   padding: 1rem;
   color: var(--pale-green);
+}
 
+.abf-contact {
+  color: var(--pale-green);
+  text-decoration: none;
 }
