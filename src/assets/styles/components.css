@@ -55,9 +55,18 @@ nav {
   color: var(--pale-green);
   padding: 50px;
   font-size: 150%;
-  min-height: 70vh;
+  min-height: 80vh;
 }
 
+.illustration-image, .portrait-image, .fragment-image {
+  width: 60%;
+  margin: auto;
+}
+
+.art-div {
+  display: flex;
+  padding: 50px;
+}
 /* Google Search */
 
 /* .googleSearchText {
