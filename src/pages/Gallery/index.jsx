@@ -6,6 +6,7 @@ function Gallery() {
     <div className="pageBackground">
     <br />
 <h1 className="pageTitle">Gallery</h1>
+<h1> COMING SOON!</h1>
     </div>
   )
 }
