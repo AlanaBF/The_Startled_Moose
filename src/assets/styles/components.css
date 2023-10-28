@@ -49,6 +49,29 @@ nav {
   color: var(--dark-blue) !important;
 }
 
+.carousel {
+  width: 90%;
+  margin: auto;
+  padding: 20px;
+ 
+  /* transform: rotate(350deg); */
+}
+
+.carousel-image {
+  height: auto; /* Automatically adjust the height to fit the image */
+  max-width: 100%; /* Ensure the image doesn't exceed the parent container's width */
+  border-radius: 50px !important;
+  border: 10px solid var(--teal)
+}
+
+
+.contact-button {
+  background-color: var(--dark-blue);
+  border: var(--dark-blue) solid 2px;
+color: var(--pale-green);
+border-radius: 20px;
+padding: 10px;
+}
 /* About Me */
 .intro-container {
   background-color: var(--teal);

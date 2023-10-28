@@ -1,26 +1,30 @@
 import "../../assets/styles/components.css";
-import Illustration from "../../assets/images/JannieIllustrations.jpg";
+import Illustration from "../../assets/images/Illustration14.jpeg";
 import Portrait from "../../assets/images/JanniePortrait2.jpeg"
 import Fragment from "../../assets/images/JannieFragmentations11.jpeg"
+
 function About() {
   return (
     <div>
       <div className="aboutContainer">
         <div className="aboutCard">
           <div className="intro-container">
-            <h1>
+            <p>
               {" "}
-              Create Memories and Stories: Personalized Artwork, Mosaic
-              Creations, and Illustrations.
-            </h1>
+              I offer Book Illustrations, Personalized Artwork, Mosaic
+              Creations and more.
+            </p>
+            <p>Take a look at my gallery for inspiration and ideas. 
+
+            <br/>Contact me for more information<br/></p>
             <div className="art-div">
-                <h3>Illustrations</h3>
+                <p>Illustrations</p>
                 <img src={Illustration} className="illustration-image"></img>
-              <h3>Portraits</h3>
+              <p>Portraits</p>
                 <img src={Portrait} className="portrait-image"></img>
   
     
-              <h3>Fragmented Mosaic Art</h3>
+              <p>Fragmented Mosaic Art</p>
                 <img src={Fragment} className="fragment-image"></img>
  
             </div>
