@@ -51,19 +51,20 @@ body {
 
 .contactText {
   text-align: center;
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: bold;
   line-height: 1.5;
+  padding: 10px;
 }
 
 .fa {
-  font-size: 4rem;
+  font-size: 3rem;
   color: var(--dark-blue);
   padding: 20px;
 }
 
 .fa:hover {
-  font-size: 3rem;
+  font-size: 2rem;
   color: var(--teal);
 }
 
